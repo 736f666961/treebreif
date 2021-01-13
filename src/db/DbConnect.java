@@ -6,7 +6,7 @@ public class DbConnect {
     public Connection dbLink;
     public Connection getConnect(){
         String dbUser = "root";
-        String dbPass = "root";
+        String dbPass = "";
         String url = "jdbc:mysql://localhost:3306/treeofskillsdb?autoReconnect=true&useSSL=false";
 
         try{
